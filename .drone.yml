@@ -6,4 +6,5 @@ steps:
     image: node:lts-alpine
     commands:
       - echo "hello world"
+      - exit 1
 
