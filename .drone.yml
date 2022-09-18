@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: ci/cd
+steps:
+  - name: build
+    image: node:lts-alpine
+    commands:
+      - echo "hello world"
+
